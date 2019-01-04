@@ -1,0 +1,93 @@
+﻿Example Script
+Include at least 1 line before #SCRIPT!!
+The script must be in UTF-8
+Please see README.md for command usages
+To comment in the script, just write it anywhere outside of the syntax
+
+#SCRIPT
+en_US
+zh_CN
+
+Creative Tab Name <- this is a comment
+Indentations are optional
+
+#NAME
+	itemGroup.examplemod
+	My Mod CreativeTab
+	我的创造页面
+
+Blocks
+	
+#GROUP
+	tile
+	#SUFFIX
+		.name
+	#NAME
+		exampleblock
+		Example Block
+		方块例子
+
+	#NAME
+		bigblock
+		Big Block
+		大方块
+		
+	#SUFFIX
+	
+#RETURN tile <- anything after #RETURN will not be read, you can put comment here
+
+Items
+
+#GROUP
+	item
+	#SUFFIX
+		.name
+	#NAME
+		exampleitem
+		Example Item
+		物品例子
+	
+	#SUFFIX
+	
+#RETURN
+
+Mod Specific
+
+#GROUP
+	examplemod
+	
+	Tooltips <- comment again
+	
+	#GROUP
+		tooltip
+		#NAME
+			exampleitem_tooltip
+			This is an example!
+			这是一个例子!
+			
+	#RETURN tooltip	
+			
+	Messages
+	
+	#GROUP
+		message
+		#NAMEENUM
+			enumexample
+			This is an NAMEENUM example
+			Above is the first line in English. This is the second
+			This is the third line in English
+			
+			这是NAMEENUM的例子
+			上面是中文第一行, 这行是第二行
+			这是中文第三行
+			
+#RETURNALL <- use this to return all groups, not recommended.
+
+end of script
+
+#END
+
+Anything after end will not be read
+
+
+
