@@ -2,20 +2,23 @@
 A Java Program that helps you to build MC lang files
 
 To download, see the release folder. It has the executable jar, an example script and the output from that script
+<br>
+# Script Commands
+<b>Command</b> #SCRIPT <br>
+<i>Mark beginning of the script, also defines languages</i><br>
+<b>Usage:</b><br>
+#SCRIPT<br>
+lang1<br>
+lang2<br>
+...<br>
+<i>{EMPTY_LINE}</i><br>
 
-Script Commands:
-<b>Command</b> #SCRIPT 
-<i>Mark beginning of the script<i>
-<b>Usage:</b>
-#SCRIPT
-lang1
-lang2
-...
-<i>{EMPTY_LINE}</i>
+<b>Command</b> #END <br>
+<i>Mark end of the script</i><br>
+<b>Usage:</b><br>
+#END
 
 
-
-END end
 
 
 NAME define => group.name[suffix][enum]=<name>
