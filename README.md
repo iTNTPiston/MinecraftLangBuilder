@@ -47,8 +47,8 @@ Group and suffix also apply<br>
 Push a group. If the old group is foo and we push bar, the group becomes foo.bar<br>
 The default group name is an empty string<br>
 <b>Usage:</b><br>
-#GROUP
-[group name]
+#GROUP<br>
+[group name]<br>
 
 <b>Command</b> #SUFFIX<br>
 Change suffix.<br>
